@@ -5,6 +5,7 @@
     {
         public static double y(double x, double a)
         {
+<<<<<<< HEAD
             return (Math.Pow(a,(x*x-1)) - (Math.Log(x*x-1)) + (Math.Pow(x*x-1, 1 / 3))); 
         }
          static void Main(string[] args)
@@ -27,6 +28,9 @@
                 Console.WriteLine($"Для x = {i}\t y = {y(i, a)}");
             }
             Console.ReadLine();
+=======
+            Console.WriteLine("Evgenij_Novozhilov");
+>>>>>>> c383b7852b59398b22a4fe1faa44505b040ae21d
         }
     }
 } 
